@@ -1,0 +1,12 @@
+# translate.yaml
+model: /RPSubAlign/SMILES representation/model/USPTO-50K/RPSubAlign_1x.pt
+src: /RPSubAlign/SMILES representation/data/USPTO-50K/cano/src-test.txt
+output: /RPSubAlign/SMILES representation/pred/USPTO-50K/out/pred_RPSubAlign.txt
+gpu: 0
+beam_size: 10
+n_best: 10
+batch_size: 256
+batch_type: tokens
+max_length: 200
+replace_unk: false
+attn_debug: true

@@ -1,0 +1,27 @@
+# data.yaml
+
+## Where the samples will be written
+save_data: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x
+## Where the vocab(s) will be written
+src_vocab: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/vocab.src
+tgt_vocab: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/vocab.tgt
+src_vocab_size: 1000
+tgt_vocab_size: 1000
+vocab_size_multiple: 8
+n_sample: -1
+# Prevent overwriting existing files in the folder
+overwrite: True
+#### Filter
+src_seq_length: 1000
+tgt_seq_length: 1000
+share_vocab: True
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/src-train.txt
+        path_tgt: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/tgt-train.txt
+    valid:
+        path_src: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/src-val.txt
+        path_tgt: /RPSubAlign/SMILES representation/data/USPTO-50K/RPSubAlign_1x/tgt-val.txt
+...
