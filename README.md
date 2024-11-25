@@ -10,17 +10,17 @@ Full data enhancement data and trained models can be found at [Google-drive](htt
 
 -script：
 
---get_seq：get different molecular characterization scripts.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--get_seq：get different molecular characterization scripts.
 
---Config_yml：retrosynthesis model preparation, training and use profile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--Config_yml：retrosynthesis model preparation, training and use profile.
 
---metrics：result evaluation script.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--metrics：result evaluation script.
 
 -SMILES representation:
 
---data: data that can be used directly for model training and testing. Contains three different SMILES representation data for the USPTO-50K and USPTO-MIT datasets, respectively.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--data: data that can be used directly for model training and testing. Contains three different SMILES representation data for the USPTO-50K and USPTO-MIT datasets, respectively.
 
---model: The trained model, which can be directly used to reproduce the results of the article or to make inverse synthesis prediction. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--model: The trained model, which can be directly used to reproduce the results of the article or to make inverse synthesis prediction. 
 
 -SELFIES  representation: similar as SMILES representation.
 
