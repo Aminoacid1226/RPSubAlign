@@ -57,7 +57,7 @@ You can change the data input path and processing result output path in the scri
 
 # Retrosynthetic prediction
 
-The model framework provided by opennmt is used to train and predict the retroynthesis.The configuration file can be found in script/Config_yml.
+The model framework provided by opennmt is used to train and predict the retroynthesis.The configuration file can be found in `script/Config_yml`.
 
 ### step1：tokenization
 
@@ -91,4 +91,4 @@ Running this command generates predictions in the specified folder.
 
 # Metrics
 
-We provide evaluation scripts for three indicators, Top-N, Maxfrag and Validity, which can be directly run to obtain results. You can find it in script/metrcis and run it.
+We provide evaluation scripts for three indicators, Top-N, Maxfrag and Validity, which can be directly run to obtain results. You can find it in `script/metrcis` and run it.
