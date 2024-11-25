@@ -4,7 +4,7 @@ The RPSubAlign method offers a novel molecular characterization for retrosynthes
 
 This repository contains all the data and source code for the RPSubAlign method. You can follow the steps below to implement RPSubAlign for inverse synthesis prediction.
 
-Full data enhancement data and trained models can be found at xxxx. If you want to reproduce the results of the article, we recommend that you download the full data and model and organize the file as follows.
+Full data enhancement data and trained models can be found at [Google-drive](https://reurl.cc/xpgLEe). If you want to reproduce the results of the article, we recommend that you download the full data and model and organize the file as follows.
 
 -raw data : raw data csv files for the USPO-50K and USPO-MIT datasets.
 
