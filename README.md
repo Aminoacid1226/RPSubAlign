@@ -41,8 +41,8 @@ All code is written in Python3.6 and modeled using the pytorch version of openmn
 Or you can create the desired environment with one click using the yaml files provided.
 
 ```bash
-# conda env creat -f RPSubAlign.yaml -n your_env_name
-conda env creat -f RPSubAlign.yaml -n sa
+# conda env create -f RPSubAlign.yaml -n your_env_name
+conda env create -f RPSubAlign.yaml -n sa
 ```
 
 # Substructure alignment
